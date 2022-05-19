@@ -17,7 +17,7 @@ body {
 #calc {
     width: 400px;
     padding: 0.5em;
-    background-color: #c4c4c4;
+    background-color: #fdbe00;
     color: #000;
     display: flex;
     flex-direction: column;
@@ -26,7 +26,7 @@ body {
 #calc h3 {
     font-size: .8em;
     font-weight: 300;
-    color: #666;
+    color: #000;
 }
 
 #operations {
@@ -60,12 +60,12 @@ body {
     border-radius: 0;
     height: 6em;
     font-size: 2.7em;
-    background-color: #dbdbdb;
+    background-color: #fdbe00;
     cursor: pointer;
 }
 
 #buttons-container .number {
-    background-color: #f3f3f3;
+    background-color: #c27dfc;
 }
 
 #buttons-container button:hover {
