@@ -10,9 +10,9 @@ class Calculator {
         this.currentOperationText = currentOperationText;
         this.currentOperation = "";
     }
-    // add digit to calculator screen
+    // adiciona dígito na tela da calculadora
     addDigit(digit) {
-        // CHECK if current operation already has a dot
+        // verifica se o número já tem um ponto
         if (digit === "." && this.currentOperationText.innerText.includes(".")){
             return;
         }
